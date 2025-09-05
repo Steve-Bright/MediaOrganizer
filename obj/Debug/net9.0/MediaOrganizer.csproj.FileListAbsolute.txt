@@ -1,0 +1,14 @@
+C:\msys64\home\Asus\MediaOrganizer\obj\Debug\net9.0\MediaOrganizer.GeneratedMSBuildEditorConfig.editorconfig
+C:\msys64\home\Asus\MediaOrganizer\obj\Debug\net9.0\MediaOrganizer.AssemblyInfoInputs.cache
+C:\msys64\home\Asus\MediaOrganizer\obj\Debug\net9.0\MediaOrganizer.AssemblyInfo.cs
+C:\msys64\home\Asus\MediaOrganizer\obj\Debug\net9.0\MediaOrganizer.csproj.CoreCompileInputs.cache
+C:\msys64\home\Asus\MediaOrganizer\bin\Debug\net9.0\MediaOrganizer.exe
+C:\msys64\home\Asus\MediaOrganizer\bin\Debug\net9.0\MediaOrganizer.deps.json
+C:\msys64\home\Asus\MediaOrganizer\bin\Debug\net9.0\MediaOrganizer.runtimeconfig.json
+C:\msys64\home\Asus\MediaOrganizer\bin\Debug\net9.0\MediaOrganizer.dll
+C:\msys64\home\Asus\MediaOrganizer\bin\Debug\net9.0\MediaOrganizer.pdb
+C:\msys64\home\Asus\MediaOrganizer\obj\Debug\net9.0\MediaOrganizer.dll
+C:\msys64\home\Asus\MediaOrganizer\obj\Debug\net9.0\refint\MediaOrganizer.dll
+C:\msys64\home\Asus\MediaOrganizer\obj\Debug\net9.0\MediaOrganizer.pdb
+C:\msys64\home\Asus\MediaOrganizer\obj\Debug\net9.0\MediaOrganizer.genruntimeconfig.cache
+C:\msys64\home\Asus\MediaOrganizer\obj\Debug\net9.0\ref\MediaOrganizer.dll
