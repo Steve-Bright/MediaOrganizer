@@ -18,6 +18,7 @@ namespace MediaOrganizer
             };
             PlayAll(allMedias);
         }
+        
         public static void PlayAll(Media[] allMedias){
             foreach (Media eachMedia in allMedias){
                 Console.WriteLine("Title:{0}", eachMedia.Title);

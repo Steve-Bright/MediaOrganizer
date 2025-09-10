@@ -12,3 +12,4 @@ C:\msys64\home\Asus\MediaOrganizer\obj\Debug\net9.0\refint\MediaOrganizer.dll
 C:\msys64\home\Asus\MediaOrganizer\obj\Debug\net9.0\MediaOrganizer.pdb
 C:\msys64\home\Asus\MediaOrganizer\obj\Debug\net9.0\MediaOrganizer.genruntimeconfig.cache
 C:\msys64\home\Asus\MediaOrganizer\obj\Debug\net9.0\ref\MediaOrganizer.dll
+C:\msys64\home\Asus\MediaOrganizer\obj\Debug\net9.0\MediaOrganizer.sourcelink.json
