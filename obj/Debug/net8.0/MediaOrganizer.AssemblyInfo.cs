@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MediaOrganizer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a97bdb9376c133049737da4b02babb7e518f6ae8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5a511260073cbb80b9ec270cb0d25214a4c67559")]
 [assembly: System.Reflection.AssemblyProductAttribute("MediaOrganizer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MediaOrganizer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

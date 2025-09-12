@@ -1,5 +1,8 @@
 using System;
 
+
+#pragma warning disable
+
 namespace MediaOrganizer
 {
     public class Media
@@ -8,30 +11,36 @@ namespace MediaOrganizer
         private int _size;
         private MediaType _type;
 
-        public Media(string title, int size, MediaType type){
+        public Media(string title, int size, MediaType type)
+        {
             _title = title;
             _size = size;
             _type = type;
         }
 
-        public string Title{
-            set{_title = value;}
-            get{return _title;}
+        public string Title
+        {
+            set { _title = value; }
+            get { return _title; }
         }
 
-        public int Size{
-            set{_size = value;}
-            get{return _size;}
+        public int Size
+        {
+            set { _size = value; }
+            get { return _size; }
         }
 
-        public MediaType Type{
-            get{return _type;}
+        public MediaType Type
+        {
+            get { return _type; }
         }
 
-        public string Play(){
+        public string Play()
+        {
             string message = null;
-            switch(_type){
-                case MediaType.Audio: 
+            switch (_type)
+            {
+                case MediaType.Audio:
                     message = "Ready for some light music!";
                     break;
                 case MediaType.Video:

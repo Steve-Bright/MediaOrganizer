@@ -10,7 +10,7 @@ namespace MediaOrganizer
             MediaType audioType = MediaType.Audio;
             MediaType videoType = MediaType.Video;
             MediaType imageType = MediaType.Image;
-            Media[] allMedias = 
+            Media[] allMedias =
             {
                 new Media("One Day", 20, audioType),
                 new Media("Terminator", 2000,  videoType),
@@ -18,12 +18,14 @@ namespace MediaOrganizer
             };
             PlayAll(allMedias);
         }
-        
-        public static void PlayAll(Media[] allMedias){
-            foreach (Media eachMedia in allMedias){
+
+        public static void PlayAll(Media[] allMedias)
+        {
+            foreach (Media eachMedia in allMedias)
+            {
                 Console.WriteLine("Title:{0}", eachMedia.Title);
                 Console.WriteLine("Size:{0}", eachMedia.Size);
-                Console.WriteLine("{0}\n",eachMedia.Play());
+                Console.WriteLine("{0}\n", eachMedia.Play());
             }
         }
     }
