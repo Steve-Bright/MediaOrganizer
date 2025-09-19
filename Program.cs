@@ -7,16 +7,18 @@ namespace MediaOrganizer
     {
         public static void Main()
         {
-            MediaType audioType = MediaType.Audio;
-            MediaType videoType = MediaType.Video;
-            MediaType imageType = MediaType.Image;
-            Media[] allMedias =
-            {
-                new Media("One Day", 20, audioType),
-                new Media("Terminator", 2000,  videoType),
-                new Media("Animal", 10, imageType)
-            };
-            PlayAll(allMedias);
+            Playlist playlistOne = new Playlist();
+            playlistOne.PrintDetails();
+        //     MediaType audioType = MediaType.Audio;
+        //     MediaType videoType = MediaType.Video;
+        //     MediaType imageType = MediaType.Image;
+        //     Media[] allMedias =
+        //     {
+        //         new Media("One Day", 20, audioType),
+        //         new Media("Terminator", 2000,  videoType),
+        //         new Media("Animal", 10, imageType)
+        //     };
+        //     PlayAll(allMedias);
         }
 
         public static void PlayAll(Media[] allMedias)
