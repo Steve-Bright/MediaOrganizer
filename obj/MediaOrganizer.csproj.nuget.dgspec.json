@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\msys64\\home\\Asus\\MediaOrganizer\\MediaOrganizer.csproj": {}
+    "C:\\msys64\\home\\Asus\\MediaOrganizerPlaylist\\MediaOrganizer.csproj": {}
   },
   "projects": {
-    "C:\\msys64\\home\\Asus\\MediaOrganizer\\MediaOrganizer.csproj": {
+    "C:\\msys64\\home\\Asus\\MediaOrganizerPlaylist\\MediaOrganizer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\msys64\\home\\Asus\\MediaOrganizer\\MediaOrganizer.csproj",
+        "projectUniqueName": "C:\\msys64\\home\\Asus\\MediaOrganizerPlaylist\\MediaOrganizer.csproj",
         "projectName": "MediaOrganizer",
-        "projectPath": "C:\\msys64\\home\\Asus\\MediaOrganizer\\MediaOrganizer.csproj",
+        "projectPath": "C:\\msys64\\home\\Asus\\MediaOrganizerPlaylist\\MediaOrganizer.csproj",
         "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "C:\\msys64\\home\\Asus\\MediaOrganizer\\obj\\",
+        "outputPath": "C:\\msys64\\home\\Asus\\MediaOrganizerPlaylist\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

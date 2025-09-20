@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "51+qMov0TMw=",
+  "dgSpecHash": "8ZLhuwDESYw=",
   "success": true,
-  "projectFilePath": "C:\\msys64\\home\\Asus\\MediaOrganizer\\MediaOrganizer.csproj",
+  "projectFilePath": "C:\\msys64\\home\\Asus\\MediaOrganizerPlaylist\\MediaOrganizer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Asus\\.nuget\\packages\\microsoft.codecoverage\\1.0.3\\microsoft.codecoverage.1.0.3.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
