@@ -33,7 +33,7 @@ namespace MediaOrganizer
         public override string Play()
         {
             //tenary conditional
-            return _availability ? "Video is not ready to play" : "Video unavailable.";
+            return _availability ? "Video is now ready to play" : "Video unavailable.";
         }
     }
 }

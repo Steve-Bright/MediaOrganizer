@@ -12,9 +12,9 @@ namespace MediaOrganizer
             Audio newAudio = new Audio("Despacito", 30, "JB", "Top 2017", 120);
 
             string audioInfo = "AudioInfo\n=====================\n";
-            string artistInfo = "Artist: " + newAudio.Artist + "\n";
-            string albumInfo = "Album: " + newAudio.Album + "\n";
-            string durationInfo = "Duration: " + newAudio.Duration + "\n";
+            string artistInfo = "Artist: JB\n";
+            string albumInfo = "Album: Top 2017\n";
+            string durationInfo = "Duration: 120\n";
             string finalMsg = audioInfo + artistInfo + albumInfo + durationInfo;
 
             Assert.AreEqual(newAudio.Play(), finalMsg);
