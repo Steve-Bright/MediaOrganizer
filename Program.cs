@@ -7,14 +7,11 @@ namespace MediaOrganizer
     {
         public static void Main()
         {
-            MediaType audioType = MediaType.Audio;
-            MediaType videoType = MediaType.Video;
-            MediaType imageType = MediaType.Image;
             Media[] allMedias =
             {
-                new Media("One Day", 20, audioType),
-                new Media("Terminator", 2000,  videoType),
-                new Media("Animal", 10, imageType)
+                new Audio("One Day", 20, "JB", "Best playlist", 120),
+                new Video("Terminator", 2000),
+                new Image("Animal", 10, 100, 100)
             };
             PlayAll(allMedias);
         }
@@ -25,6 +22,7 @@ namespace MediaOrganizer
             {
                 Console.WriteLine("Title:{0}", eachMedia.Title);
                 Console.WriteLine("Size:{0}", eachMedia.Size);
+                Console.WriteLine("MediaType: {0}", eachMedia.GetType().Name); //GetType() returns the package name. MediaOrganizer.DerivedClass
                 Console.WriteLine("{0}\n", eachMedia.Play());
             }
         }

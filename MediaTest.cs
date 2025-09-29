@@ -7,43 +7,42 @@ namespace MediaOrganizer
     public class MediaOrganizerTest
     {
         [Test()]
-        public void AudioEnumTest()
+        public void AudioClassTest()
         {
-            MediaType audioType = MediaType.Audio;
-            Media newMedia = new Media("Test Audio Media", 20, audioType);
+            Audio newAudio = new Audio("Despacito", 30, "JB", "Top 2017", 120);
 
-            string playMsg = newMedia.Play();
+            string audioInfo = "AudioInfo\n=====================\n";
+            string artistInfo = "Artist: " + newAudio.Artist + "\n";
+            string albumInfo = "Album: " + newAudio.Album + "\n";
+            string durationInfo = "Duration: " + newAudio.Duration + "\n";
+            string finalMsg = audioInfo + artistInfo + albumInfo + durationInfo;
 
-            Assert.AreEqual(playMsg, "Ready for some light music!");
+            Assert.AreEqual(newAudio.Play(), finalMsg);
         }
 
         [Test()]
-        public void VideoEnumTest()
+        public void VideoClassTest()
         {
-            // MediaType videoType = 
-            Media newMedia = new Media("Test Video Media", 300, MediaType.Video);
+            Video newVideo = new Video("Despacito Music Video", 30);
 
-            string playMsg = newMedia.Play();
-
-            Assert.AreEqual(playMsg, "Be entertained by the visual effect!");
+            Assert.AreEqual(newVideo.Play(), "Video unavailable.");
 
         }
 
         [Test]
         public void ImageEnumTest()
         {
-            Media newMedia = new Media("Test Image Media", 300, MediaType.Image);
+            Image newImage = new Image("Mountain Scene", 30, 300, 300);
+            int totalPixels = newImage.PixelsInHeight * newImage.PixelsInWidth;
 
-            string playMsg = newMedia.Play();
-
-            Assert.AreEqual(playMsg, "High resolution image provided!");
+            Assert.AreEqual(newImage.Play(), totalPixels.ToString());
 
         }
 
         [Test()]
         public void MediaChangeTitleTest()
         {
-            Media newMedia = new Media("Test Media", 40, MediaType.Video);
+            Video newMedia = new Video("Test Media", 40);
 
             Assert.AreEqual(newMedia.Title, "Test Media");
 

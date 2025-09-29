@@ -7,11 +7,10 @@ namespace MediaOrganizer
      /// <summary>
      /// This is the Media Class containing 3 fields, each having its own property.
      /// </summary>
-    public class Media
+    public abstract class Media
     {
         private string _title;
         private int _size;
-        private MediaType _type;
 
          /// <summary>
          /// Media Constructor that requires three parameters
@@ -19,11 +18,10 @@ namespace MediaOrganizer
          /// <param name="title">Media's Name</param>
          /// <param name="size">Media Size</param>
          /// <param name="type">Media Type</param>
-        public Media(string title, int size, MediaType type)
+        public Media(string title, int size)
         {
             _title = title;
             _size = size;
-            _type = type;
         }
 
          /// <summary>
@@ -47,36 +45,10 @@ namespace MediaOrganizer
             get { return _size; }
         }
 
-
-         /// <summary>
-         /// Type property of Media Class
-         /// </summary>
-         /// <value>MediaType data type Media Type</value>
-        public MediaType Type
-        {
-            get { return _type; }
-        }
-
-         /// <summary>
-         /// Play method for Media class that returns respective value for each media type.
-         /// </summary>
-         /// <returns>Respective String value for each media type</returns>
-        public string Play()
-        {
-            string message = null;
-            switch (_type)
-            {
-                case MediaType.Audio:
-                    message = "Ready for some light music!";
-                    break;
-                case MediaType.Video:
-                    message = "Be entertained by the visual effect!";
-                    break;
-                case MediaType.Image:
-                    message = "High resolution image provided!";
-                    break;
-            }
-            return message;
-        }
+        /// <summary>
+        /// Abstract method Play() that returns string data type
+        /// </summary>
+        /// <returns>String data type</returns>
+        public abstract string Play();
     }
 }

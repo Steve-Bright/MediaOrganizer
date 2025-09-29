@@ -10,53 +10,60 @@ namespace MediaOrganizer
         public void AddMediaTest()
         {
             //initialize
-            Media mediaOne = new Media("One more Time", 30, MediaType.Audio);
-            Media mediaTwo = new Media("Mount Everest", 20, MediaType.Image);
+            Audio mediaOne = new Audio("One Time", 30, "JB", "Top 2009", 120);
+            Image mediaTwo = new Image("Mount Everest", 20, 500, 500);
+            Video mediaThree = new Video("Test Media", 40);
             Playlist playlistOne = new Playlist();
 
             //add
             playlistOne.AddMedia(mediaOne);
             playlistOne.AddMedia(mediaTwo);
+            playlistOne.AddMedia(mediaThree);
 
             //test
-            Assert.AreEqual(playlistOne.MediaCount, 2);
+            Assert.AreEqual(playlistOne.MediaCount, 3);
         }
 
         [Test()]
         public void RemoveMediaTest()
         {
             //initialize
-            Media mediaOne = new Media("One more Time", 30, MediaType.Audio);
-            Media mediaTwo = new Media("Mount Everest", 20, MediaType.Image);
+            Audio mediaOne = new Audio("One Time", 30, "JB", "Top 2009", 120);
+            Image mediaTwo = new Image("Mount Everest", 20, 500, 500);
+            Video mediaThree = new Video("Test Media", 40);
             Playlist playlistOne = new Playlist();
 
             playlistOne.AddMedia(mediaOne);
             playlistOne.AddMedia(mediaTwo);
+            playlistOne.AddMedia(mediaThree);
             playlistOne.RemoveMedia(mediaOne);
 
-            Assert.AreEqual(playlistOne.MediaCount, 1);
+            Assert.AreEqual(playlistOne.MediaCount, 2);
         }
 
         [Test()]
         public void GetMediaTest()
         {
             //initialize
-            Media mediaOne = new Media("One more Time", 30, MediaType.Audio);
-            Media mediaTwo = new Media("Mount Everest", 20, MediaType.Image);
+            Audio mediaOne = new Audio("One Time", 30, "JB", "Top 2009", 120);
+            Image mediaTwo = new Image("Mount Everest", 20, 500, 500);
+            Video mediaThree = new Video("Test Media", 40);
             Playlist playlistOne = new Playlist();
 
             playlistOne.AddMedia(mediaOne);
             playlistOne.AddMedia(mediaTwo);
+            playlistOne.AddMedia(mediaThree);
 
             Assert.AreEqual(playlistOne[0], mediaOne);
             Assert.AreEqual(playlistOne[1], mediaTwo);
+            Assert.AreEqual(playlistOne[2], mediaThree);
         }
 
         [Test()]
         public void PrintDetailsTest()
         {
             Playlist playlistOne = new Playlist();
-            Media mediaOne = new Media("One more Time", 30, MediaType.Audio);
+            Media mediaOne = new Audio("One Time", 30, "JB", "Top 2009", 120);
             playlistOne.AddMedia(mediaOne);
 
             bool printResult = playlistOne.PrintDetails();

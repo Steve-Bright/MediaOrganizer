@@ -90,7 +90,6 @@ namespace MediaOrganizer
                     Console.WriteLine("========================");
                     Console.WriteLine("Media Title: {0}", eachMedia.Title);
                     Console.WriteLine("Media Size: {0}", eachMedia.Size);
-                    Console.WriteLine("Media Type: {0}", eachMedia.Type);
                     Console.WriteLine();
                 }
                 return true;
