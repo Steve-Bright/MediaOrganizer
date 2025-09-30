@@ -14,7 +14,6 @@ namespace MediaOrganizer
         /// <param name="size">Size of Image - Integer</param>
         /// <param name="widthPixels">Width of Image (Pixels) - Integer</param>
         /// <param name="heightPixels">Height of Image (Pixels) - Integer</param>
-        /// <returns></returns>
         public Image(string title, int size, int widthPixels, int heightPixels) : base(title, size)
         {
             _pixelsInWidth = widthPixels;
